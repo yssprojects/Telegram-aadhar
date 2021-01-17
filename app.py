@@ -20,4 +20,4 @@ def id(query):
     return render_template("main.html",dp=dp,channel_name=channel_name,User=User,des=description)
     
 if __name__ == "__main__":
-     app.run(host="0.0.0.0",port= 5000)
+     app.run()
